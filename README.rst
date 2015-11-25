@@ -329,8 +329,7 @@ Download Obfsproxy: https://www.torproject.org/projects/obfsproxy.html.en
 Setting capabilities on your virtualenv python binary
 =====================================================
 
-If your distributation supports capabilities you can avoid needing to run OONI as root::
-
+If your distribution supports capabilities you can avoid needing to run OONI as root::
 
     setcap cap_net_admin,cap_net_raw+eip /path/to/your/virtualenv's/python
 
